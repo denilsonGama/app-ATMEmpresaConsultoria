@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmpresaActivity">
+
+    <ImageView
+        android:id="@+id/detalheEmpresaId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="23dp"
+        app:srcCompat="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="53dp"
+        android:text="@string/detalhe_empresa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ScrollView
+        android:id="@+id/scrollViewEmpresaId"
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:layout_below="@+id/detalheEmpresaId"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textoEmpresaId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/detalheEmpresaId"
+                android:layout_alignTop="@+id/scrollViewEmpresaId"
+                android:background="#ebebeb"
+                android:padding="@dimen/paddin_padrao"
+                android:text="A ATM Empresa e Consultoria, especializada no desenvolvimento de aplicações na area da saude com mais de 25 anos de mercado, possui grande variedade de aplicativos e soluções.
+                              \n\nAprimorando o objetivo de proporcionar total facilidade ao cliente, a ATM Empresa e Consultoria oferece atendimento personalizado atrelado a um ambiente de desenvolvimento agradável e diferenciado.
+                              \n\n Possui tradição no serviço de de soluçoes administrativas na area da saude com qualidade e estilo."
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:typeface="normal" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

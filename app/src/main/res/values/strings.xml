@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ATM Empresa Consultoria</string>
+    <string name="detalhe_empresa">Sobre a Empresa</string>
+    <string name="texto_sobre"><![CDATA[A Camicado, rede de lojas especializada em casa & decoração com mais de 25 anos de mercado, possui grande variedade de produtos, entre artigos de decoração, utensílios de cozinha, mesa posta, eletroportáteis, cutelaria, cama, mesa e banho e organização.]]></string>
+    <string name="servico_detalhes">Serviço</string>
+    <string name="texyo_consultoria">Consultoria</string>
+    <string name="texto_dessenvolvimento">Desenvolvimento</string>
+    <string name="texto_aplicacoes">Aplicativos</string>
+    <string name="clientes_detalhe">Nossos Clientes</string>
+    <string name="texto_cliente1">Empresa de Desenvolvimento de Sistemas</string>
+    <string name="texto_cliente2">Empresa de Auditoria</string>
+    <string name="texto_contato">Contato</string>
+</resources>
